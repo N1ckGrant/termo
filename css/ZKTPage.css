@@ -1,0 +1,922 @@
+h1 {
+    margin: 0 20px;
+}
+
+.zkt_page h2, h1 {
+    text-align: center;
+}
+
+.zkt_page h2 {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    letter-spacing: .16rem;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+
+.zkt_page .resorts {
+    margin-top: 35px;
+    margin-bottom: 80px;
+    padding: 0 60px;
+}
+
+.zkt_page .resorts .btns {
+    margin-bottom: 40px;
+}
+
+.zkt_page .resorts .btns, .zkt_page .resorts .btns button {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.zkt_page .resorts .btns button {
+    width: 200px;
+    height: 48px;
+    border: 1px solid #b7b7b7;
+    font-size: 1rem;
+    letter-spacing: .16rem;
+    text-transform: uppercase;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-right: 20px;
+    background-color: #fff;
+}
+
+.zkt_page .resorts .btns button:hover {
+    border: 1px solid #ff5a0e;
+    background-color: #ff5a0e;
+    color: #fff;
+}
+
+.zkt_page .resorts .btns button:last-of-type {
+    margin-right: 0;
+}
+
+.zkt_page .resorts .items_wrap {
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.zkt_page .resorts .items_wrap .item_wrapper {
+    -ms-flex-preferred-size: 25%;
+    flex-basis: 25%;
+    border: 1px solid #b7b7b7;
+    border-right: 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.zkt_page .resorts .items_wrap .item_wrapper.hover .item {
+    transform: translate3d(100%, 0, 0);
+}
+
+.zkt_page .resorts .items_wrap .item_wrapper .item {
+    transition: .7s;
+    padding-bottom: 25px;
+}
+
+.zkt_page .resorts .items_wrap .item_wrapper:nth-of-type(4n) {
+    border-right: 1px solid #b7b7b7;
+}
+
+.zkt_page .resorts .items_wrap .item_wrapper .img {
+    background-position: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: calc((25vw - 30px) * .75);
+    position: relative;
+}
+
+.zkt_page .resorts .items_wrap .item_wrapper .img .action {
+    width: 90px;
+    padding: 5px 20px;
+    font-size: 1.2rem;
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    background-color: #ff5a0e;
+    color: #fff;
+}
+
+.zkt_page .resorts .items_wrap .item_wrapper .img .action.table {
+    padding: 15px 10px;
+    width: 110px;
+    display: none;
+}
+
+.zkt_page .resorts .items_wrap .item_wrapper .img .action.table h5 {
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    color: #fff;
+}
+
+.zkt_page .resorts .items_wrap .item_wrapper .img .action.table .stars {
+    margin: 0;
+    margin-bottom: 8px;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+}
+
+.zkt_page .resorts .items_wrap .item_wrapper .img .action.table .stars .star {
+    margin-right: 5px;
+}
+
+.zkt_page .resorts .items_wrap .item_wrapper .img .action.table .stars .star.active svg {
+    fill: #fff;
+}
+
+.zkt_page .resorts .items_wrap .item_wrapper .name {
+    margin-top: 30px;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+.zkt_page .resorts .items_wrap .item_wrapper .action_table {
+    font-size: 1.3rem;
+    color: #ff5a0e;
+    display: none;
+}
+
+.zkt_page .resorts .items_wrap .item_wrapper .stars {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin: 15px 0;
+}
+
+.zkt_page .resorts .items_wrap .item_wrapper .stars .star {
+    margin-right: 10px;
+}
+
+.zkt_page .resorts .items_wrap .item_wrapper .stars .star.active svg {
+    fill: #ff5a0e;
+}
+
+.zkt_page .resorts .items_wrap .item_wrapper .stars .star:last-of-type {
+    margin-right: 0;
+}
+
+.zkt_page .resorts .items_wrap .item_wrapper .stars .star svg {
+    width: 1.4rem;
+    height: 1.4rem;
+    fill: transparent;
+    stroke: #ff5a0e;
+}
+
+.zkt_page .resorts .items_wrap .item_wrapper .text {
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    text-align: center;
+    padding: 0 10px;
+}
+
+.zkt_page .resorts .items_wrap .item_wrapper .links {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.zkt_page .resorts .items_wrap .item_wrapper .links .more {
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    color: #b7b7b7;
+    cursor: pointer;
+    line-height: 10px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    font-size: 10px;
+}
+
+.zkt_page .resorts .items_wrap .item_wrapper .links .more:hover {
+    color: #ff5a0e;
+}
+
+.zkt_page .resorts .items_wrap .item_wrapper .links .more:first-child {
+    margin-right: 25px;
+}
+
+.zkt_page .resorts .items_wrap .item_wrapper .links .more svg {
+    margin-right: 10px;
+}
+
+.zkt_page .resorts .items_wrap .item_wrapper .descr {
+    background-color: #fafafa;
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+}
+
+.zkt_page .resorts .items_wrap .item_wrapper .descr ul {
+    padding: 0 25px;
+}
+
+.zkt_page .resorts .items_wrap .item_wrapper .descr ul li {
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+    padding: 10px 0;
+    padding-left: 25px;
+    position: relative;
+    border-bottom: 1px dashed #e1e1e1;
+}
+
+.zkt_page .resorts .items_wrap .item_wrapper .descr ul li:after {
+    content: "✔";
+    position: absolute;
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+    color: #ff5a0e;
+    left: 0;
+    top: 10px;
+}
+
+.zkt_page .resorts .items_wrap .item_wrapper .descr .links {
+    position: absolute;
+    bottom: 25px;
+    margin: 0;
+    left: 0;
+    right: 0;
+}
+
+.zkt_page .resorts .items_wrap .item_wrapper .descr .links .more {
+    margin: 0;
+}
+
+.zkt_page .resorts .to_all {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-transform: uppercase;
+    letter-spacing: .16rem;
+    font-size: 1.2rem;
+    margin: 0 auto;
+    width: 298px;
+    height: 58px;
+    border: 1px solid #ff5a0e;
+    background-color: #ff5a0e;
+    color: #fff;
+    font-family: MedGothaPro, sans-serif;
+}
+
+.zkt_page .resorts .to_all:hover {
+    background-color: transparent;
+    color: #ff5a0e;
+}
+
+.zkt_page .how_to_choose {
+    padding: 80px 20px;
+    background-color: #fbfbfb;
+}
+
+.zkt_page .how_to_choose .content {
+    max-width: 720px;
+    margin: 0 auto;
+}
+
+.zkt_page .how_to_choose p {
+    font-size: 1.3rem;
+    line-height: 1.8rem;
+    margin-bottom: 15px;
+}
+
+.zkt_page .how_to_choose a {
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    color: #b7b7b7;
+}
+
+.zkt_page .how_to_choose a:hover {
+    color: #ff5a0e;
+}
+
+.zkt_page .how_to_choose a svg {
+    margin-right: 10px;
+}
+
+.zkt_page .what_how {
+    margin-top: 80px;
+}
+
+.zkt_page .what_how h5 {
+    font-size: 1.6rem;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.zkt_page .what_how .items_wrap {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    margin-bottom: 80px;
+}
+
+.zkt_page .what_how .items_wrap.additional .item .img {
+    border: 1px solid #ff5a0e;
+    background-color: transparent;
+}
+
+.zkt_page .what_how .items_wrap .wrap {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-preferred-size: 33.333%;
+    flex-basis: 33.333%;
+}
+
+.zkt_page .what_how .items_wrap .item {
+    -ms-flex-preferred-size: 320px;
+    flex-basis: 320px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row-reverse;
+    flex-direction: row-reverse;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.zkt_page .what_how .items_wrap .item .name {
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    line-height: 2.2rem;
+    letter-spacing: .1rem;
+    cursor: pointer;
+}
+
+.zkt_page .what_how .items_wrap .item .name:hover {
+    color: #ff5a0e;
+}
+
+.zkt_page .what_how .items_wrap .item .name:hover + .img img {
+    transform: scale(1.1);
+}
+
+.zkt_page .what_how .items_wrap .item .img {
+    min-width: 50px;
+    min-height: 50px;
+    background-color: #ff5a0e;
+    border-radius: 50%;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-right: 15px;
+}
+
+.zkt_page .contras {
+    padding-bottom: 60px;
+}
+
+.zkt_page .contras .head {
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: .16rem;
+    background-color: #fbfbfb;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    cursor: pointer;
+    height: 90px;
+}
+
+.zkt_page .contras .head.open svg {
+    transform: rotate(-90deg);
+}
+
+.zkt_page .contras .head.open + .content {
+    max-height: 500px;
+    padding: 0 60px;
+    padding-top: 80px;
+    overflow: auto;
+    opacity: 1;
+    transform: translateZ(0);
+}
+
+.zkt_page .contras .head:hover {
+    color: #ff5a0e;
+}
+
+.zkt_page .contras .head:hover svg polygon {
+    fill: #ff5a0e;
+}
+
+.zkt_page .contras .head svg {
+    width: 7px;
+    margin-left: 20px;
+    transform: rotate(90deg);
+}
+
+.zkt_page .contras .head svg polygon {
+    fill: #161616;
+}
+
+.zkt_page .contras .content {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    overflow: hidden;
+    max-height: 0;
+    opacity: 0;
+    padding: 0 60px;
+    transition: .7s;
+    transition-timing-function: linear;
+    -ms-overflow-style: none;
+    overflow: -moz-scrollbars-none;
+}
+
+.zkt_page .contras .content::-webkit-scrollbar {
+    width: 0;
+}
+
+.zkt_page .contras .content h5 {
+    font-size: 1.6rem;
+    margin-bottom: 15px;
+}
+
+.zkt_page .contras .content p {
+    font-size: 1.3rem;
+    line-height: 1.8rem;
+    margin-bottom: 15px;
+}
+
+.zkt_page .contras .content a {
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    color: #b7b7b7;
+}
+
+.zkt_page .contras .content a:hover {
+    color: #ff5a0e;
+}
+
+.zkt_page .contras .content a svg {
+    margin-right: 10px;
+}
+
+.zkt_page .contras .content .left {
+    -ms-flex-preferred-size: 40%;
+    flex-basis: 40%;
+}
+
+.zkt_page .contras .content .right {
+    -ms-flex-preferred-size: calc(60% - 50px);
+    flex-basis: calc(60% - 50px);
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.zkt_page .contras .content .right .item {
+    -ms-flex-preferred-size: calc(50% - 15px);
+    flex-basis: calc(50% - 15px);
+}
+
+.zkt_page .articles {
+    margin: 60px;
+}
+
+.zkt_page .articles .items_wrap {
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.zkt_page .articles .items_wrap .item {
+    -ms-flex-preferred-size: calc(33.333% - 20px);
+    flex-basis: calc(33.333% - 20px);
+    margin-right: 30px;
+}
+
+.zkt_page .articles .items_wrap .item:last-of-type {
+    margin: 0;
+}
+
+.zkt_page .articles .items_wrap .item .img {
+    height: 20vw;
+    background-position: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    overflow: hidden;
+}
+
+.zkt_page .articles .items_wrap .item .img:hover:after {
+    transform: scale(1.1) translateZ(0);
+}
+
+.zkt_page .articles .items_wrap .item .img:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-image: inherit;
+    background-size: inherit;
+    background-repeat: inherit;
+    background-position: inherit;
+    transition: .4s;
+}
+
+.zkt_page .articles .items_wrap .item h5 {
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    margin: 15px 0;
+}
+
+.zkt_page .articles .items_wrap .item p {
+    font-size: 1.3rem;
+    line-height: 1.8rem;
+}
+
+.zkt_page .articles .items_wrap .item .more {
+    display: -ms-flexbox;
+    -ms-flex-align: center;
+    font-size: 10px;
+    text-transform: uppercase;
+    color: #b7b7b7;
+    letter-spacing: .16rem;
+    margin-top: 10px;
+    line-height: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.zkt_page .articles .items_wrap .item .more:hover {
+    color: #ff5a0e;
+}
+
+.zkt_page .articles .items_wrap .item .more svg {
+    margin-right: 10px;
+}
+
+@media (min-width: 1550px) {
+    .zkt_page .what_how .items_wrap .item {
+        -ms-flex-preferred-size: 420px;
+        flex-basis: 420px;
+    }
+
+    .zkt_page .what_how .items_wrap .item .img {
+        min-width: 70px;
+        min-height: 70px;
+    }
+
+    .zkt_page .resorts .btns button {
+        width: 240px;
+        height: 58px;
+        margin-right: 30px;
+    }
+}
+
+@media (min-width: 1700px) {
+    .zkt_page .resorts, .zkt_page .what_how {
+        padding: 0 120px;
+    }
+
+    .zkt_page .contras .head.open + .content {
+        padding: 0 120px;
+        padding-top: 80px;
+    }
+
+    .zkt_page .contras .content {
+        padding: 0 120px;
+    }
+
+    .zkt_page .articles {
+        margin-left: 120px;
+        margin-right: 120px;
+    }
+}
+
+@media (max-width: 1160px) {
+    .zkt_page .resorts {
+        padding: 0 20px;
+        margin-bottom: 60px;
+    }
+
+    .zkt_page .contras .head.open + .content {
+        padding: 0 20px;
+        padding-top: 60px;
+    }
+
+    .zkt_page .contras .content {
+        padding: 0 20px;
+    }
+
+    .zkt_page .articles {
+        margin: 60px 20px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .zkt_page .what_how {
+        margin-top: 60px;
+    }
+
+    .zkt_page .what_how .items_wrap .item {
+        -ms-flex-preferred-size: 90%;
+        flex-basis: 90%;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 800px) {
+    .zkt_page .resorts .items_wrap {
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
+    .zkt_page .resorts .items_wrap .item_wrapper {
+        -ms-flex-preferred-size: auto;
+        flex-basis: auto;
+        border: 1px solid #b7b7b7;
+        margin-bottom: 20px;
+    }
+
+    .zkt_page .resorts .items_wrap .item_wrapper.hover .item {
+        transform: translateZ(0);
+    }
+
+    .zkt_page .resorts .items_wrap .item_wrapper .item {
+        padding: 0;
+        display: -ms-flexbox;
+        display: flex;
+    }
+
+    .zkt_page .resorts .items_wrap .item_wrapper:nth-of-type(n) {
+        border-right: 1px solid #b7b7b7;
+    }
+
+    .zkt_page .resorts .items_wrap .item_wrapper .img {
+        height: auto;
+        min-width: 40%;
+    }
+
+    .zkt_page .resorts .items_wrap .item_wrapper .img .action {
+        display: none;
+    }
+
+    .zkt_page .resorts .items_wrap .item_wrapper .img .action.table {
+        display: block;
+    }
+
+    .zkt_page .resorts .items_wrap .item_wrapper .img .action.table .stars {
+        display: -ms-flexbox;
+        display: flex;
+    }
+
+    .zkt_page .resorts .items_wrap .item_wrapper .action_table {
+        display: block;
+    }
+
+    .zkt_page .resorts .items_wrap .item_wrapper .name {
+        display: none;
+    }
+
+    .zkt_page .resorts .items_wrap .item_wrapper .main {
+        padding: 20px;
+    }
+
+    .zkt_page .resorts .items_wrap .item_wrapper .stars {
+        display: none;
+    }
+
+    .zkt_page .resorts .items_wrap .item_wrapper .text {
+        margin: 20px 0;
+        padding: 0;
+        text-align: left;
+    }
+
+    .zkt_page .resorts .items_wrap .item_wrapper .links {
+        margin: 0;
+        margin-top: 10px;
+        -ms-flex-pack: start;
+        justify-content: flex-start;
+    }
+
+    .zkt_page .resorts .items_wrap .item_wrapper .links .more {
+        width: calc(45% - 5px);
+        border: 1px solid #b7b7b7;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-align: center;
+        align-items: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        height: 40px;
+    }
+
+    .zkt_page .resorts .items_wrap .item_wrapper .links .more:hover {
+        color: #fff;
+        border: 1px solid #ff5a0e;
+        background-color: #ff5a0e;
+    }
+
+    .zkt_page .resorts .items_wrap .item_wrapper .links .more:first-child {
+        margin-right: 10px;
+    }
+
+    .zkt_page .resorts .items_wrap .item_wrapper .links .more svg {
+        display: none;
+    }
+
+    .zkt_page .resorts .items_wrap .item_wrapper .descr {
+        position: static;
+        width: auto;
+        height: auto;
+        background-color: transparent;
+    }
+
+    .zkt_page .resorts .items_wrap .item_wrapper .descr ul {
+        padding: 0;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+
+    .zkt_page .resorts .items_wrap .item_wrapper .descr ul li {
+        width: calc(50% - 20px);
+        padding: 0;
+        padding-left: 20px;
+        border: 0;
+        margin-bottom: 10px;
+    }
+
+    .zkt_page .resorts .items_wrap .item_wrapper .descr ul li:after {
+        content: "✔";
+        position: absolute;
+        font-size: 1.2rem;
+        line-height: 1.4rem;
+        color: #ff5a0e;
+        left: 0;
+        top: 0;
+    }
+
+    .zkt_page .resorts .items_wrap .item_wrapper .descr .links {
+        display: none;
+    }
+}
+
+@media (max-width: 800px) {
+    .zkt_page .what_how .items_wrap .wrap {
+        -ms-flex-preferred-size: 50%;
+        flex-basis: 50%;
+    }
+
+    .zkt_page .how_to_choose {
+        padding: 60px 20px;
+    }
+
+    .zkt_page .how_to_choose .content {
+        max-width: none;
+    }
+
+    .zkt_page .contras .content .right .item {
+        -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+        margin-bottom: 10px;
+    }
+
+    .zkt_page .contras .content .right .item:last-of-type {
+        margin-bottom: 0;
+    }
+
+    .zkt_page .articles .items_wrap .item {
+        -ms-flex-preferred-size: calc(50% - 15px);
+        flex-basis: calc(50% - 15px);
+    }
+
+    .zkt_page .articles .items_wrap .item:last-of-type {
+        display: none;
+    }
+
+    .zkt_page .articles .items_wrap .item:nth-of-type(2) {
+        margin-right: 0;
+    }
+
+    .zkt_page .articles .items_wrap .item .img {
+        height: 30vw;
+    }
+}
+
+@media (max-width: 600px) {
+    .zkt_page h2 {
+        font-size: 2rem;
+    }
+
+    .zkt_page .resorts .items_wrap {
+        display: block;
+    }
+
+    .zkt_page .resorts .items_wrap .item {
+        margin-right: 0;
+    }
+
+    .zkt_page .resorts .items_wrap .item_wrapper {
+        border: 0;
+    }
+
+    .zkt_page .resorts .items_wrap .item:nth-of-type(n) {
+        border: 1px solid #b7b7b7;
+    }
+
+    .zkt_page .resorts .items_wrap .item .img {
+        height: 35vw;
+    }
+
+    .zkt_page .contras .head.open + .content {
+        padding-top: 30px;
+    }
+
+    .zkt_page .contras .content {
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
+    .zkt_page .contras .content .right .item {
+        margin-bottom: 15px;
+    }
+
+    .zkt_page .by_indicators .items_wrap {
+        display: block;
+    }
+}
+
+@media (max-width: 480px) {
+    .zkt_page .resorts .btns {
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
+    .zkt_page .resorts .btns button {
+        width: auto;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .zkt_page .resorts .items_wrap .item .img {
+        height: 65vw;
+    }
+
+    .zkt_page .resorts .to_all {
+        width: auto;
+    }
+
+    .zkt_page .what_how {
+        padding: 0 20px;
+    }
+
+    .zkt_page .what_how .items_wrap {
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
+    .zkt_page .what_how .items_wrap .wrap {
+        -ms-flex-preferred-size: auto;
+        flex-basis: auto;
+    }
+
+    .zkt_page .what_how .items_wrap .item {
+        -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+        margin-bottom: 20px;
+    }
+
+    .zkt_page .articles .items_wrap {
+        display: block;
+    }
+
+    .zkt_page .articles .items_wrap .item .img {
+        height: calc(65vw - 40px);
+    }
+}

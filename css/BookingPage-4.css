@@ -1,0 +1,434 @@
+.order_data_page {
+    padding: 60px;
+}
+
+.order_data_page input {
+    min-width: 0;
+}
+
+.order_data_page h1 {
+    margin: 0 auto;
+    margin-bottom: 35px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.order_data_page h4 {
+    font-size: 1.3rem;
+    line-height: 1.8rem;
+    margin-bottom: 35px;
+    text-align: center;
+}
+
+.order_data_page h4 a {
+    color: #ff5a0e;
+    text-decoration: underline;
+    -webkit-text-decoration-color: rgba(255, 90, 14, .2);
+    text-decoration-color: rgba(255, 90, 14, .2);
+}
+
+.order_data_page h4 a:hover {
+    -webkit-text-decoration-color: #ff5a0e;
+    text-decoration-color: #ff5a0e;
+}
+
+.order_data_page .back_link {
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: .16rem;
+    position: relative;
+}
+
+.order_data_page .back_link:hover {
+    color: #ff5a0e;
+}
+
+.order_data_page .back_link:hover:after {
+    background-color: #ff5a0e;
+}
+
+.order_data_page .back_link:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: -2px;
+    height: 1px;
+    background-color: #161616;
+    transition: .4s;
+}
+
+.order_data_page .form .inputs_wrap {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #b7b7b7;
+}
+
+.order_data_page .form .inputs_wrap label {
+    width: calc(50% - 10px);
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
+    margin-bottom: 20px;
+}
+
+.order_data_page .form .inputs_wrap label span {
+    color: #b7b7b7;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    font-size: 1.3rem;
+    font-family: MedGothaPro, sans-serif;
+}
+
+.order_data_page .form .inputs_wrap label input {
+    border: 1px solid #b7b7b7;
+    padding-left: 20px;
+    height: 48px;
+}
+
+.order_data_page .form .inputs_wrap label input:required + span {
+    position: relative;
+}
+
+.order_data_page .form .inputs_wrap label input:required + span:after {
+    content: "*";
+    color: #ff5a0e;
+}
+
+.order_data_page .form h3 {
+    font-size: 1.8rem;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.order_data_page .form .only {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.order_data_page .form .only p {
+    font-size: 1.3rem;
+    margin-bottom: 35px;
+}
+
+.order_data_page .form .only .add_visa {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.order_data_page .form .only .add_visa:hover {
+    color: #ff5a0e;
+}
+
+.order_data_page .form .pasport_data {
+    border-bottom: 1px solid #b7b7b7;
+}
+
+.order_data_page .form .pasport_data .inputs, .order_data_page .form .pasport_data .inputs .drop_down {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.order_data_page .form .pasport_data .inputs .drop_down {
+    -ms-flex-align: center;
+    align-items: center;
+    border: 1px solid #b7b7b7;
+    height: 48px;
+    font-size: 1.3rem;
+    padding: 0 20px;
+}
+
+.order_data_page .form .pasport_data .inputs .drop_down.open svg {
+    transform: rotate(180deg);
+}
+
+.order_data_page .form .pasport_data .inputs .drop_down_wrap {
+    -ms-flex-item-align: end;
+    align-self: flex-end;
+    margin-bottom: 35px;
+}
+
+.order_data_page .form .pasport_data .inputs .drop_down_content {
+    background-color: #fff;
+}
+
+.order_data_page .form .pasport_data .inputs .drop_down_content ul {
+    border-right: 1px solid #b7b7b7;
+    border-left: 1px solid #b7b7b7;
+}
+
+.order_data_page .form .pasport_data .inputs .drop_down_content ul li {
+    height: 40px;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    padding-left: 20px;
+    cursor: pointer;
+    border-bottom: 1px solid #b7b7b7;
+}
+
+.order_data_page .form .pasport_data .inputs .drop_down_content ul li:hover {
+    background-color: #fbfbfb;
+}
+
+.order_data_page .form .pasport_data .inputs label {
+    width: calc(20% - 20px);
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
+    margin-bottom: 35px;
+}
+
+.order_data_page .form .pasport_data .inputs label span {
+    color: #b7b7b7;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    font-size: 1.3rem;
+    font-family: MedGothaPro, sans-serif;
+}
+
+.order_data_page .form .pasport_data .inputs label input {
+    border: 1px solid #b7b7b7;
+    padding-left: 20px;
+    height: 48px;
+}
+
+.order_data_page .form .pasport_data .inputs label input:required + span {
+    position: relative;
+}
+
+.order_data_page .form .pasport_data .inputs label input:required + span:after {
+    content: "*";
+    color: #ff5a0e;
+}
+
+.order_data_page .form .pasport_data .inputs .small {
+    width: calc(10% - 20px);
+}
+
+.order_data_page .form .agree_btns {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding-top: 40px;
+    margin-top: 20px;
+}
+
+.order_data_page .form .agree_btns .wrap {
+    -ms-flex-preferred-size: calc(100% - 350px);
+    flex-basis: calc(100% - 350px);
+}
+
+.order_data_page .form .agree_btns .wrap .agree {
+    cursor: pointer;
+    margin-bottom: 8px;
+    display: block;
+}
+
+.order_data_page .form .agree_btns .wrap .agree input {
+    display: none;
+}
+
+.order_data_page .form .agree_btns .wrap .agree input:checked + strong:before {
+    background-color: #ff5a0e;
+    border: 1px solid #ff5a0e;
+}
+
+.order_data_page .form .agree_btns .wrap .agree strong {
+    font-size: 1.3rem;
+    line-height: 20px;
+    position: relative;
+    display: block;
+    padding-left: 25px;
+}
+
+.order_data_page .form .agree_btns .wrap .agree strong:before {
+    content: "";
+    position: absolute;
+    width: 7px;
+    height: 7px;
+    border: 1px solid #b7b7b7;
+    left: 0;
+    top: 5px;
+}
+
+.order_data_page .form .agree_btns .wrap .agree strong .modal_btn {
+    color: #ff5a0e;
+    text-decoration: underline;
+    padding-left: 0;
+    display: inline;
+}
+
+.order_data_page .form .agree_btns .wrap .agree strong .modal_btn:before {
+    content: none;
+}
+
+.order_data_page .form .agree_btns button {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 280px;
+    height: 48px;
+    border: 1px solid #ff5a0e;
+    background-color: #ff5a0e;
+    color: #fff;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+}
+
+.order_data_page .form .agree_btns button:hover {
+    color: #ff5a0e;
+    background-color: transparent;
+}
+
+@media (min-width: 1550px) {
+    .order_data_page h1, .order_data_page h4 {
+        margin-bottom: 50px;
+    }
+
+    .order_data_page .form .inputs_wrap label {
+        margin-bottom: 30px;
+    }
+
+    .order_data_page .form h3 {
+        margin: 50px auto;
+    }
+
+    .order_data_page .form .wishes .drop_down_content .text {
+        max-width: 1000px;
+    }
+
+    .order_data_page .form .wishes .drop_down_content textarea {
+        width: 700px;
+        height: 100px;
+    }
+
+    .order_data_page .form .pasport_data .inputs .drop_down_wrap, .order_data_page .form .pasport_data .inputs label {
+        margin-bottom: 50px;
+    }
+
+    .order_data_page .form .agree_btns {
+        margin-top: 50px;
+        padding-top: 50px;
+    }
+
+    .order_data_page .form .agree_btns button {
+        height: 58px;
+    }
+}
+
+@media (min-width: 1700px) {
+    .order_data_page {
+        padding: 60px 120px;
+    }
+}
+
+@media (max-width: 1160px) {
+    .order_data_page {
+        padding: 60px 20px;
+    }
+}
+
+@media (max-width: 800px) {
+    .order_data_page .form .pasport_data .inputs {
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+
+    .order_data_page .form .pasport_data .inputs label {
+        width: calc(40% - 10px);
+    }
+
+    .order_data_page .form .pasport_data .inputs .small {
+        width: calc(20% - 10px);
+    }
+
+    .order_data_page .form .agree_btns {
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+
+    .order_data_page .form .agree_btns .wrap {
+        -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+    }
+
+    .order_data_page .form .agree_btns button {
+        margin: 0 auto;
+        margin-top: 25px;
+    }
+}
+
+@media (max-width: 600px) {
+    .order_data_page h1 {
+        margin-top: 0;
+    }
+
+    .order_data_page .back_link {
+        display: none;
+    }
+
+    .order_data_page .form .wishes .drop_down_content .items_wrap {
+        padding: 0;
+    }
+
+    .order_data_page .form .wishes .drop_down_content .comment textarea {
+        width: calc(100% - 42px);
+    }
+}
+
+@media (max-width: 480px) {
+    .order_data_page .form .inputs_wrap label, .order_data_page .form .pasport_data .inputs label {
+        width: 100%;
+    }
+
+    .order_data_page .form .pasport_data .inputs .drop_down_wrap.small + label, .order_data_page .form .pasport_data .inputs .pasport_numb {
+        width: calc(70% - 10px);
+    }
+
+    .order_data_page .form .pasport_data .inputs .small {
+        width: calc(30% - 10px);
+    }
+
+    .order_data_page .form .wishes .drop_down_content .items_wrap .item {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        margin: 0;
+    }
+
+    .order_data_page .form .wishes .drop_down_content .items_wrap .item label span {
+        margin-left: 20px;
+        padding-left: 15px;
+    }
+
+    .order_data_page .form .agree_btns button {
+        width: 100%;
+    }
+}
